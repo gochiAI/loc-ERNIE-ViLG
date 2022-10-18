@@ -1,0 +1,5 @@
+tasks:
+  - name: Setup & Build
+    before: npm install -i req.txt
+    init: sudo apt-get install -y libgl1-mesa-dev
+    command: echo "setting OK"
